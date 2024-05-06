@@ -70,7 +70,8 @@ class enpt_Cambridge {
             this.removeTags(content, '.definition-src');
             this.removeTags(content, 'h2');
             this.removeTags(content, '.d_br');
-            this.removeTags(content, '.freq.dfreq');
+            this.removeTags(content, '.freq.dfreq')
+            this.removeTags(content, '.dwl.hax')
             this.removelinks(content);
             definition += content.innerHTML;
         }
